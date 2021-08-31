@@ -1,6 +1,12 @@
+*{
+    /*font-size: large;*/
+    
+}
+
 body {
     background-color:rgb(32, 26, 9);
     color: white;
+    font-family: 'Klee One', cursive;
 }
 
 footer{
@@ -9,6 +15,7 @@ footer{
 header{
     background-color: black;
     color: white;
+    font-family: 'Cinzel Decorative', cursive;
 }
 
 #login {
