@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../css/style.css">    
+    <title>Document</title>
+</head>
+<body>
+    <a href="../index.html">Ir a home</a>
+    estoy en la pagina de registro de nuevo usuario
+
+<br><br>
+<form action="datos.php" method="get">
+
+<label for="nombre">ingresa tu nombre</label>
+<input id="fname" type="text" name="nombre" placeholder="escribe tu nombre"><br><br>
+
+<label for="apellido">ingresa tu apellido</label>
+<input id="flastname" type="text" name="apellido" placeholder="escribe tu apellido"><br><br>
+
+<label for="birthdate">Ingresa tu fecha de nacimiento</label>
+<input type="date" id="bithdate" name="birthdate">
+<br><br>
+
+<label for="pais">selecciona tu pais</label>
+<select name="pais" id="fpais">
+<option value="">---</option>
+<option value="argentina">argentina</option>
+<option value="mexico">mexico</option>
+<option value="chile">chile</option>
+<option value="uruguay">uruguay</option>
+</select>
+<br><br>
+
+<label for="mail">ingresa tu mail</label>
+<input id="fmail" type="email" name="mail" placeholder="escribe tu mail"><br><br>
+
+<label for="mail">ingresa tu mail</label>
+<input id="fvalidatemail" type="email" name="validmail" placeholder="reescribe tu mail"><br><br>
+
+<label for="pswd">ingresa tu contraseña</label>
+<input id="fpwd" type="password" name="pass" placeholder="crea una contraseña"><br><br>
+
+<label for="pswd">ingresa tu contraseña</label>
+<input id="fvalidatepwd" type="password" name="validpass" placeholder="confirma tu contraseña"><br><br>
+
+<label for="genero">Genero</label>
+<input type="radio" name="genero" id="ghombre">hombre
+<input type="radio" name="genero" id="gmujer">mujer
+<br><br>
+
+<input type="reset" value="reset formulario">
+<input type="submit" value="enviar">
+<br><br>
+</form>
+
+
+
+
+
+
+<footer>
+        
+    <a href="pages/components/contact.html">Contact</a>
+
+</footer>
+</body>
+</html>
